@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto-Regular.ttf");
+  font-weight: 300;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  background-color: #808080;
+}
+
+.header {
+  width: 1250px;
+  height: 60px;
+  margin: auto;
+  text-align: right;
+  background-image: url(../assets/jpg/banner.jpg);
+  background-size: cover;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.nav-list {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 15px;
+  list-style: none;
+}
+
+.main {
+  width: 1250px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+.div-section {
+  height: 300px;
+}
+
+.section {
+  width: 47%;
+  height: 270px;
+  margin: 10px;
+  display: inline-block;
+  font-size: 18px;
+  border-right: 5px solid #b2e16d;
+  vertical-align: top;
+}
+
+.section-head {
+  width: 80%;
+  background-color: rgba(8, 103, 84, 0.1);
+  border-radius: 5px;
+}
+
+.h1 {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+}
+
+.contacts-item {
+  list-style-type: none;
+}
+
+.skills-item {
+  list-style-type: none;
+}
+
+.footer {
+  width: 1250px;
+  margin: auto;
+  text-align: center;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-image: url(../assets/jpg/banner.jpg);
+  background-size: cover;
+}
+
+.footer-element {
+  margin: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
